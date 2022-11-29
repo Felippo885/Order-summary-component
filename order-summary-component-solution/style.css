@@ -1,0 +1,123 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card-scream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.scream-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+svg {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-prgf {
+    font-size: 1em;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.card-annual {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-top: 30px;
+
+    background-color: hsl(225, 22%, 96%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.annual-prgf {
+    display: flex;
+    flex-direction: column;
+}
+
+.annual-plan {
+    font-weight: 700;
+}
+
+.annual-cash {
+    color: hsl(226, 17%, 70%);
+}
+
+.annual-plan,
+.annual-cash {
+    right: 10px;
+}
+
+.card-chan {
+    font-weight: 500;
+}
+
+.buttons-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.card-payment {
+    padding: 15px;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Red Hat Display', sans-serif;
+
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+.card-payment:hover {
+    background-color: hsl(224, 68%, 39%);
+    transition: 0.5s;
+}
+
+.card-payment > button {
+    box-shadow: 0px 2px 20px;
+}
+
+.card-cancel {
+    padding-top: 10px;
+    text-decoration: none;
+    color: hsl(226, 14%, 53%);
+    padding-bottom: 20px;
+}
+
+.attribution {
+    padding-top: 20px;
+}
